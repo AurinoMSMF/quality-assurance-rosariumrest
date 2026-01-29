@@ -1,0 +1,788 @@
+{
+  "info": {
+    "_postman_id": "ad5f5523-57a0-4389-aa02-522f2ae39371",
+    "name": "Tests - Rosariumrest",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27637013"
+  },
+  "item": [
+    {
+      "name": "Funcional tests - manual",
+      "item": [
+        {
+          "name": "CT-01, CT-02 e CT-03 - day-mysteries/ - PASS",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "PASS",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    ""
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "367"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:19:49 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"16f-0lXVrmTHTFvHC/+sA9C0ITMAvXI\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::8768q-1769660387700-66a2006086a6"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"type\": \"mysteriaGaudiosa\",\n    \"mysteries\": {\n        \"primumMysterium\": \"Quem, Virgo, concepísti (MT I, 18; Lc I, 26-38)\",\n        \"secundoMysterium\": \"Quem visitándo Elísabeth portásti (Lc I, 39-45)\",\n        \"tertiumMysterium\": \"Quem, Virgo, genuísti (Lc II, 6-12)\",\n        \"quartumMysterium\": \"Quem in templo praesentásti (Lc II, 25-32)\",\n        \"quintumMysterium\": \"Quem in templo invenísti (Lc II, 41-50)\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "CT-04 e CT-10(1/2) - day-mysteries/tuesday - dia string - PASS",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "PASS",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/tuesday",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    "tuesday"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "415"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:25:47 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"19f-WyYvvuduRl6Lfs5v/YTv/JqCsuU\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::7ws77-1769660745427-76ed6a4aab65"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"type\": \"mysteriaDolorosa\",\n    \"mysteries\": {\n        \"primumMysterium\": \"Qui pro nobis sánguinem sudávit (Lc XXII, 39-46)\",\n        \"secundoMysterium\": \"Qui pro nobis flagellátus est (Mt XXVII, 26; Mc XVI, 6-15; Ioh XIX, I)\",\n        \"tertiumMysterium\": \"Qui pro nobis spinis coronátus est (Ioh XIX, 1-8)\",\n        \"quartumMysterium\": \"Qui pro nobis crucem baiulávit (Ioh XIX, 16-22)\",\n        \"quintumMysterium\": \"Qui pro nobis crucífixus est (Ioh XIX, 25-30)\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "CT-05 - day-mysteries/1 - dia númerico - PASS",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "PASS",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/1",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    "1"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "340"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:26:09 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"154-xtaJX5IdaFBWDMFmugEzRzAxJFQ\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::k4l9l-1769660769425-0fe50d8a933d"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"type\": \"mysteriaGloriosa\",\n    \"mysteries\": {\n        \"primumMysterium\": \"Qui resurréxit a mortuis (Mc XVI, 1-7)\",\n        \"secundoMysterium\": \"Qui in caelum ascéndit (Lc XXIV, 46-53)\",\n        \"tertiumMysterium\": \"Qui Spiritum Sanctum misit (Act II, 1-7)\",\n        \"quartumMysterium\": \"Qui te assúmpsit (Ps XVI, 10)\",\n        \"quintumMysterium\": \"Qui te in caelis coronávit (Apoc XII, 1)\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "CT-06 e CT-10(2/2) - day-mysteries/monday - dia string - PASS",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "PASS",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/monday",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    "monday"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "367"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:26:25 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"16f-0lXVrmTHTFvHC/+sA9C0ITMAvXI\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::bb7xh-1769660785397-0fb6fbf81b3e"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"type\": \"mysteriaGaudiosa\",\n    \"mysteries\": {\n        \"primumMysterium\": \"Quem, Virgo, concepísti (MT I, 18; Lc I, 26-38)\",\n        \"secundoMysterium\": \"Quem visitándo Elísabeth portásti (Lc I, 39-45)\",\n        \"tertiumMysterium\": \"Quem, Virgo, genuísti (Lc II, 6-12)\",\n        \"quartumMysterium\": \"Quem in templo praesentásti (Lc II, 25-32)\",\n        \"quintumMysterium\": \"Quem in templo invenísti (Lc II, 41-50)\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "CT-07 - day-mysteries/MONDAY - dia string uppercase - FAIL",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "FAIL",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/MONDAY",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    "MONDAY"
+                  ]
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "14"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:26:46 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"e-WzibJtRR8IBMD+72ymDOMG90dCQ\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::ckd6c-1769660806094-cc2349186bcb"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"message\": {}\n}"
+            }
+          ]
+        },
+        {
+          "name": "CT-08 - day-mysteries/invalidday - dia string inválido - FAIL",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "FAIL",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/invalidday",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    "invalidday"
+                  ]
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "14"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:27:38 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"e-WzibJtRR8IBMD+72ymDOMG90dCQ\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::xbf8v-1769660857960-4fe122adf522"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"message\": {}\n}"
+            }
+          ]
+        },
+        {
+          "name": "CT-09 - day-mysteries/8 - dia númerico fora do range de dias - FAIL",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "FAIL",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/8",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    "8"
+                  ]
+                }
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": null,
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "14"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:27:50 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"e-WzibJtRR8IBMD+72ymDOMG90dCQ\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::bb7xh-1769660870140-beea21e2179b"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n    \"message\": {}\n}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smoke tests - manual",
+      "item": [
+        {
+          "name": "CT-00 - day-mysteries/ - OK",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "OK",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    ""
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "",
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "367"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:29:03 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"16f-0lXVrmTHTFvHC/+sA9C0ITMAvXI\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::bchcc-1769660943270-9b2d5ad0c48b"
+                }
+              ],
+              "cookie": [
+                {
+                  "expires": "Invalid Date",
+                  "domain": "",
+                  "path": ""
+                }
+              ],
+              "body": "{\n    \"type\": \"mysteriaGaudiosa\",\n    \"mysteries\": {\n        \"primumMysterium\": \"Quem, Virgo, concepísti (MT I, 18; Lc I, 26-38)\",\n        \"secundoMysterium\": \"Quem visitándo Elísabeth portásti (Lc I, 39-45)\",\n        \"tertiumMysterium\": \"Quem, Virgo, genuísti (Lc II, 6-12)\",\n        \"quartumMysterium\": \"Quem in templo praesentásti (Lc II, 25-32)\",\n        \"quintumMysterium\": \"Quem in templo invenísti (Lc II, 41-50)\"\n    }\n}"
+            }
+          ]
+        },
+        {
+          "name": "CT-00 - day-mysteries/monday - OK",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": [
+            {
+              "name": "OK",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "https://rosariumrest.vercel.app/day-mysteries/monday",
+                  "protocol": "https",
+                  "host": [
+                    "rosariumrest",
+                    "vercel",
+                    "app"
+                  ],
+                  "path": [
+                    "day-mysteries",
+                    "monday"
+                  ]
+                }
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "",
+              "header": [
+                {
+                  "key": "Age",
+                  "value": "0"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Length",
+                  "value": "367"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "application/json; charset=utf-8"
+                },
+                {
+                  "key": "Date",
+                  "value": "Thu, 29 Jan 2026 04:29:24 GMT"
+                },
+                {
+                  "key": "Etag",
+                  "value": "W/\"16f-0lXVrmTHTFvHC/+sA9C0ITMAvXI\""
+                },
+                {
+                  "key": "Server",
+                  "value": "Vercel"
+                },
+                {
+                  "key": "Strict-Transport-Security",
+                  "value": "max-age=63072000; includeSubDomains; preload"
+                },
+                {
+                  "key": "X-Powered-By",
+                  "value": "Express"
+                },
+                {
+                  "key": "X-Vercel-Cache",
+                  "value": "MISS"
+                },
+                {
+                  "key": "X-Vercel-Enable-Rewrite-Caching",
+                  "value": "1"
+                },
+                {
+                  "key": "X-Vercel-Id",
+                  "value": "gru1::iad1::lzt62-1769660964402-ed51957e31bf"
+                }
+              ],
+              "cookie": [
+                {
+                  "expires": "Invalid Date",
+                  "domain": "",
+                  "path": ""
+                }
+              ],
+              "body": "{\n    \"type\": \"mysteriaGaudiosa\",\n    \"mysteries\": {\n        \"primumMysterium\": \"Quem, Virgo, concepísti (MT I, 18; Lc I, 26-38)\",\n        \"secundoMysterium\": \"Quem visitándo Elísabeth portásti (Lc I, 39-45)\",\n        \"tertiumMysterium\": \"Quem, Virgo, genuísti (Lc II, 6-12)\",\n        \"quartumMysterium\": \"Quem in templo praesentásti (Lc II, 25-32)\",\n        \"quintumMysterium\": \"Quem in templo invenísti (Lc II, 41-50)\"\n    }\n}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
