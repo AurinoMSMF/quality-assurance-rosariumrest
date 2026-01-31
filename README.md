@@ -4,11 +4,11 @@
 
 ### 🔗 API em produção (Vercel):
 
-https://rosariumrest.vercel.app/
+<a href="https://rosariumrest.vercel.app/day-mysteries" target="_blank"  rel="noopener noreferrer">https://rosariumrest.vercel.app/day-mysteries</a>
 
 ## 📖 Dados gerais da API:
 
-#### Esta API foi desenvolvida por [mim mesmo](https://www.github.com/AurinoMSMF) e possui apenas rotas GET, por se tratar de um domínio de leitura, sem necessidade de operações de escrita.. Os endpoints funcionais são:
+#### Esta API foi desenvolvida por <a href="https://www.github.com/AurinoMSMF" target="_blank"  rel="noopener noreferrer">mim mesmo</a> e possui apenas rotas GET, por se tratar de um domínio de leitura, sem necessidade de operações de escrita.. Os endpoints funcionais são:
 
 ### `GET /day-mysteries`
 
@@ -46,7 +46,7 @@ https://rosariumrest.vercel.app/
 
 ## 🐞 Relatórios de bug (Bug reports)
 
-- #### [Acessar bug reports](bug-reports/bug-reports.md)
+- #### [Acessar bug reports](bug-reports/)
 
 - #### Cada bug report segue um padrão contendo:
   - ##### Identificação
